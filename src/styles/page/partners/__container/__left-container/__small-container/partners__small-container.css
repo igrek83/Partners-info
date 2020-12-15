@@ -1,0 +1,14 @@
+@import url(./__number/partners__number.css);
+@import url(./__container-text/partners__container-text.css);
+
+.partners__small-container {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+
+@media all and (max-width: 1100px) {
+  .partners__small-container {
+    width: 100%;
+  }
+}

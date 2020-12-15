@@ -1,0 +1,9 @@
+@import url(./__mini-block/header__mini-block.css);
+@import url(./__form/header__form.css);
+@import url(./__mobile-box/header__mobile-box.css);
+@import url(./__big-line/header__big-line.css);
+
+.header__block {
+  display: flex;
+  flex-direction: column;
+}

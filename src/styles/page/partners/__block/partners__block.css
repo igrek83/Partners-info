@@ -1,0 +1,24 @@
+@import url(./__mini-block/partners__mini-block.css);
+@import url(./__block-image/partners__block-image.css);
+
+.partners__block {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  height: 300px;
+  border-radius: 23px;
+  background: linear-gradient(151.01deg, #1c2222 48.16%, #1fcfcb 214.1%);
+  box-shadow: -8px -8px 16px rgba(255, 255, 255, 0.03),
+    8px 8px 13px rgba(0, 0, 0, 0.15);
+  margin-bottom: 66px;
+  padding: 90px 145px 95px;
+}
+
+@media all and (max-width: 1100px) {
+  .partners__block {
+    width: 1000px;
+    height: auto;
+    border-radius: 30px;
+    padding: 90px 0px 10px 70px;
+  }
+}

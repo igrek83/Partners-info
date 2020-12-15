@@ -1,0 +1,12 @@
+.header__mobile-box {
+  display: none;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+@media all and (max-width: 1100px) {
+  .header__mobile-box {
+    display: flex;
+    margin-bottom: 160px;
+  }
+}

@@ -1,0 +1,14 @@
+.partners__box-image-two {
+  width: 62px;
+  height: 61px;
+  background-size: cover;
+  margin-bottom: 36px;
+}
+
+@media all and (max-width: 1100px) {
+  .partners__box-image-two {
+    width: 186px;
+    height: 183px;
+    margin-bottom: 110px;
+  }
+}

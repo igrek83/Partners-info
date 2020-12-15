@@ -1,0 +1,13 @@
+.partners__number {
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 427px;
+  line-height: 0.7;
+  color: #fff;
+}
+
+@media all and (max-width: 1100px) {
+  .partners__number {
+    font-size: 450px;
+  }
+}

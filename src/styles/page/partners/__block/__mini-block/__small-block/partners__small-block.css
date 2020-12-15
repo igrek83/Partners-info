@@ -1,0 +1,12 @@
+@import url(./__block-title/partners__block-title.css);
+@import url(./__block-text/partners__block-text.css);
+
+.partners__small-block {
+  display: flex;
+}
+
+@media all and (max-width: 1100px) {
+  .partners__small-block {
+    flex-direction: column;
+  }
+}

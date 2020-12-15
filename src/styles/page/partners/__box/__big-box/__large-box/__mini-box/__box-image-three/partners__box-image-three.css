@@ -1,0 +1,14 @@
+.partners__box-image-three {
+  width: 61px;
+  height: 49px;
+  background-size: cover;
+  margin-bottom: 48px;
+}
+
+@media all and (max-width: 1100px) {
+  .partners__box-image-three {
+    width: 183px;
+    height: 147px;
+    margin-bottom: 110px;
+  }
+}

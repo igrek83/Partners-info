@@ -1,0 +1,7 @@
+@import url(./__small-block/partners__small-block.css);
+@import url(./__button/partners__button.css);
+
+.partners__mini-block {
+  display: flex;
+  flex-direction: column;
+}

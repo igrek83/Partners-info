@@ -1,0 +1,15 @@
+@import url(./__container-text-medium/partners__container-text-medium.css);
+
+.partners__container-text {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  margin-top: 7px;
+}
+
+@media all and (max-width: 1100px) {
+  .partners__container-text {
+    width: 630px;
+    margin-top: 0;
+  }
+}

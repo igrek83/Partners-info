@@ -1,0 +1,14 @@
+@import url(./__container-span/partners__container-span.css);
+@import url(./__container-text-bottom/partners__container-text-bottom.css);
+
+.partners__bottom-block {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+
+@media all and (max-width: 1100px) {
+  .partners__bottom-block {
+    width: 1000px;
+  }
+}

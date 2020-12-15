@@ -1,0 +1,15 @@
+.partners__block-image {
+  position: relative;
+  top: -140px;
+  width: 372px;
+  height: 356px;
+  background-size: cover;
+}
+
+@media all and (max-width: 1100px) {
+  .partners__block-image {
+    top: -50px;
+    width: 648px;
+    height: 634px;
+  }
+}

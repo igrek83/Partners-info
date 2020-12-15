@@ -1,0 +1,21 @@
+@import url(./__container-image/partners__container-image.css);
+
+.partners__image-container-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 755px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background: #f3f3f3;
+  box-shadow: inset -2.6px -2.6px 3.9px #fff,
+    inset 3.5px 3.5px 3.9px rgba(160, 159, 159, 0.2);
+  padding: 4px 7px;
+}
+
+@media all and (max-width: 1100px) {
+  .partners__image-container-right {
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 170px;
+  }
+}

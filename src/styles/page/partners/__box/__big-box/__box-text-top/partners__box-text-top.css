@@ -1,0 +1,18 @@
+.partners__box-text-top {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  line-height: 16px;
+  color: #9c9c9c;
+  width: 462px;
+  padding-top: 20px;
+}
+
+@media all and (max-width: 1100px) {
+  .partners__box-text-top {
+    font-size: 35px;
+    line-height: 48px;
+    width: 100%;
+    text-align: justify;
+    padding-top: 40px
+  }
+}

@@ -1,0 +1,17 @@
+@import url(./__mini-box-title/partners__mini-box-title.css);
+@import url(./__mini-box-text/partners__mini-box-text.css);
+@import url(./__box-image-one/partners__box-image-one.css);
+@import url(./__box-image-two/partners__box-image-two.css);
+@import url(./__box-image-three/partners__box-image-three.css);
+
+.partners__mini-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media all and (max-width: 1100px) {
+  .partners__mini-box {
+    margin-bottom: 300px;
+  }
+}

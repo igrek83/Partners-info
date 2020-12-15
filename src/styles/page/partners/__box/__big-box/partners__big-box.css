@@ -1,0 +1,16 @@
+@import url(./__box-title/partners__box-title.css);
+@import url(./__box-text-top/partners__box-text-top.css);
+@import url(./__large-box/partners__large-box.css);
+
+.partners__big-box {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+
+@media all and (max-width: 1100px) {
+  .partners__big-box {
+    align-items: center;
+    width: 1000px;
+  }
+}

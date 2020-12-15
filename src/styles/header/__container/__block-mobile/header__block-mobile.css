@@ -1,0 +1,13 @@
+@import url(./__button-circle/header__button-circle.css);
+@import url(./__button-close/header__button-close.css);
+@import url(./__button-circle/header__button-circle_theme_bascet.css);
+@import url(./__button-circle/header__button-circle_theme_user.css);
+@import url(./__mobile-block-figure/header__mobile-block-figure.css);
+@import url(./__mobile-block-figure/header__mobile-block-figure_theme_bottom.css);
+
+.header__block-mobile {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+}

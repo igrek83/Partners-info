@@ -1,0 +1,16 @@
+@import url(./__container-title/partners__container-title.css);
+@import url(./__container-text-top/partners__container-text-top.css);
+
+.partners__top-block {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  padding-bottom: 240px;
+}
+
+@media all and (max-width: 1100px) {
+  .partners__top-block {
+    width: 100%;
+    align-items: center;
+  }
+}

@@ -1,0 +1,16 @@
+.partners__mini-box-title {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  margin-bottom: 47px;
+}
+
+@media all and (max-width: 1100px) {
+  .partners__mini-box-title {
+    font-size: 40px;
+    line-height: 54px;
+    margin-bottom: 110px;
+  }
+}
